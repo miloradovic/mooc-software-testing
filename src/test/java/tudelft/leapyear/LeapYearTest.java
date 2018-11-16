@@ -20,12 +20,12 @@ public class LeapYearTest {
     @Test
     public void nonLeapCenturialYears() {
         LeapYear ly = new LeapYear();
-        Assertions.assertFalse(ly.isLeapYear(1500));
+        Assertions.assertFalse(ly.isLeapYear(500));
     }
 
     @Test
     public void nonLeapYears() {
         LeapYear ly = new LeapYear();
-        Assertions.assertFalse(ly.isLeapYear(2017));
+        Assertions.assertFalse(ly.isLeapYear(2117));
     }
 }
